@@ -149,7 +149,7 @@ ___
 ```
 ___
 
-###Run project
+###Run the project
 [App.java](https://github.com/Karina-Denisevich/Hibernate-Example/blob/master/src/main/java/com/github/Karina_Denisevich/hibernate/example/App.java).
 ```java
 public class App {
@@ -172,3 +172,4 @@ public class App {
     }
 }
 ```
+___
