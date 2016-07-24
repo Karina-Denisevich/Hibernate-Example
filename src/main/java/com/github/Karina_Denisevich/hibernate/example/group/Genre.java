@@ -23,7 +23,7 @@ public class Genre implements Serializable {
     private String genreName;
 
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "genres")
-    private Set<Group> genres = new HashSet<Group>(0);
+    private Set<Group> groups = new HashSet<Group>(0);
 
     public Genre() {
     }
