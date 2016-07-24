@@ -32,9 +32,9 @@ public class Genre implements Serializable {
         this.genreName = genreName;
     }
 
-    public Genre(String genreName, Set<Group> genres) {
+    public Genre(String genreName, Set<Group> groups) {
         this.genreName = genreName;
-        this.genres = genres;
+        this.groups = groups;
     }
 
     public Integer getGenreId() {
@@ -54,10 +54,10 @@ public class Genre implements Serializable {
     }
 
     public Set<Group> getGenres() {
-        return genres;
+        return groups;
     }
 
-    public void setGenres(Set<Group> genres) {
-        this.genres = genres;
+    public void setGenres(Set<Group> groups) {
+        this.groups = groups;
     }
 }
